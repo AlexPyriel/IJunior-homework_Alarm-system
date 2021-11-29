@@ -407,6 +407,23 @@ PrefabInstance:
       objectReference: {fileID: 8338988565533138536}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+--- !u!1 &899428460274105780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8259639289693469271, guid: b0f93bf9a4cae4af385f40a45a84a2ff, type: 3}
+  m_PrefabInstance: {fileID: 9140982639015643107}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &899428460274105781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899428460274105780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4191925cf9dc4e6c88c47c94c687981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1784068415473473568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -611,6 +628,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1021940339873256087, guid: e76dbc964d3d34ac294540a2b9eb7eac, type: 3}
   m_PrefabInstance: {fileID: 9049034264391978239}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8745693688140969831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 811613506925518114, guid: 1ac18f5da5f7847d9a985882a454fb55, type: 3}
+  m_PrefabInstance: {fileID: 8222900283327441477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8745693688140969832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8745693688140969831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c12e3f707e004128be7b6306b3f66ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _detected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 899428460274105781}
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: Enable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _cleared:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 899428460274105781}
+        m_TargetAssemblyTypeName: Alarm, Assembly-CSharp
+        m_MethodName: Disable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &9049034264391978239
 PrefabInstance:
   m_ObjectHideFlags: 0
