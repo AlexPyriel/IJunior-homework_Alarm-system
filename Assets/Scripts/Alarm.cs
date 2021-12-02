@@ -41,13 +41,15 @@ public class Alarm : MonoBehaviour
 
     public void Enable()
     {
-        if (_activeCoroutine != null) StopCoroutine(_activeCoroutine);
+        if (_activeCoroutine != null)
+            StopCoroutine(_activeCoroutine);
         _activeCoroutine = StartCoroutine(FadeIn());
     }
 
     public void Disable()
     {
-        if (_activeCoroutine != null) StopCoroutine(_activeCoroutine);
+        if (_activeCoroutine != null)
+            StopCoroutine(_activeCoroutine);
         _activeCoroutine = StartCoroutine(FadeOut());
     }
 }
